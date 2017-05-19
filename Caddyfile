@@ -1,0 +1,7 @@
+localhost:2015
+root markdown
+tls off
+markdown {
+  ext .md
+  css /static/base.css
+}
