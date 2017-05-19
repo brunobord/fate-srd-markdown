@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Share');
+@font-face {
+    font-family:fate;
+    src:url(/static/fate_core_font-webfont.eot);
+    src:url(/static/fate_core_font-webfont.eot?#iefix) format("embedded-opentype"), url(/static/fate_core_font-webfont.woff) format("woff"),
+    url(/static/fate_core_font-webfont.ttf) format("truetype"),
+    url(/static/fate_core_font-webfont.svg#fate_core_glyphsregular) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #fafafa;
+  width: 40em;
+  margin: auto;
+}
+
+body img {
+  max-width: 40em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Share', cursive;
+    color: #499f4b;
+}
+a {
+    color: #499f4b;
+}
+a:visited {
+    color: #409040;
+}
+a:hover {
+    color: #308030;
+}
+span.fate_font {
+    font-family: fate;
+    font-weight: 400;
+}
+span.aspect {
+    background-color: #bae1bb;
+    padding: 0 .25em;
+}
