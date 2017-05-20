@@ -17,13 +17,13 @@ The FATE SRD is published under the terms of the [CC-BY License](https://creativ
 * Or, alternatively, you can use a plain virtualenv to run the builder.
 * To browse the SRD without converting it into HTML, you can use [caddy](https://caddyserver.com/) that directly converts Markdown into web pages.
 
-## Build
+## Build Markdown content
 
 ```
 make build
 ```
 
-## Serve
+## Serve Markdown content
 
 ```
 make serve

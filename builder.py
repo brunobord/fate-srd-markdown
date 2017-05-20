@@ -14,11 +14,9 @@ from pyquery import PyQuery as pq
 import requests
 import yaml
 
+from common import FATE_CORE, FATE_ACCELERATED, FATE_TOOLKIT
 
 BASE_URL = 'https://fate-srd.com/'
-FATE_ACCELERATED = 'fate-accelerated'
-FATE_CORE = 'fate-core'
-FATE_TOOLKIT = 'fate-system-toolkit'
 
 CORE_PAGES = yaml.load(open('{}.yaml'.format(FATE_CORE)))
 FAE_PAGES = yaml.load(open('{}.yaml'.format(FATE_ACCELERATED)))
